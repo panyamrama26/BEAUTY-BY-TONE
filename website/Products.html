@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Beauty by Tone</title>
+    <link rel="stylesheet" href="./home.css">
+    
+</head>
+<body>
+    <!-- header and nav -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./Products.html">Products</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main>
+        <section class="Product">
+            <div class="Product-items">
+                <!-- Dry Skin -->
+                <div class="skin-problem">
+                    <h2>Dry Skin</h2>
+                    <img src="./assets/large-main_magnified_dry_skin.jpg" alt="Dry Skin" class="skin-type-image">
+                    <form action="./dry.html" method="GET" class="login-form">
+                        <button onclick="showProducts('dry-skin-products')">View Products</button>
+                    </form>
+                </div>
+                <!-- Oily Skin -->
+                <div class="skin-problem">
+                    <h2>Oily Skin</h2>
+                    <img src="./assets/oily skin.jpg" alt="Oily Skin" class="skin-type-image">
+                    <form action="./oil.html" method="GET" class="login-form">
+                        <button onclick="showProducts('oily-skin-products')">View Products</button>
+                    </form>
+                </div>
+                <!-- Combination Skin -->
+                <div class="skin-problem">
+                    <h2>Combination Skin</h2>
+                    <img src="./comb skin.jpeg" alt="Combination Skin" class="skin-type-image">
+                    <form action="./comb.html" method="GET" class="login-form">
+                        <button onclick="showProducts('Combination skin-products')">View Products</button>
+                    </form>
+                </div>
+                <!-- Sensitive skin -->
+                <div class="skin-problem">
+                    <h2>Sensitive skin</h2>
+                    <img src="./assets/sensitive skin.jpeg" alt="Sensitive skin" class="skin-type-image">
+                    <form action="./sens.html" method="GET" class="login-form">
+                        <button onclick="showProducts('Sensitive skin-products')">View Products</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2025 Beauty by Tone</p>
+    </footer>
+</body>
+</html>
